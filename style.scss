@@ -1,0 +1,42 @@
+.formContainer{
+ background-color: teal;
+ height:100vh;
+ display: flex;
+ align-items:center;
+ justify-content:center;
+ 
+
+ .formWrapper{
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+    flex-direction:column;
+    margin :20px;
+    padding: 20px 10px;
+    background-color: white;
+    border-radius: 10px;
+ }
+.formInput{
+    display:flex;
+    flex-direction: column;
+    margin:10px 20px;
+    padding:4px;
+    gap:15px;
+
+
+}
+input{
+    padding:15px;
+    border:none;
+    width:250px;
+    border-bottom: 1px solid #a7bcff;
+    
+}
+button{
+    padding:5px 10px;
+    margin:5px;
+    background-color: teal;
+    color: white;
+
+}
+}
